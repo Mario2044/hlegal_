@@ -1,0 +1,27 @@
+body {
+  margin: 0 auto;
+}
+body .content {
+  max-width: 320px;
+  min-width: 320px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+body .header__contacts {
+  display: flex;
+}
+body .header__contacts a {
+  margin-left: auto;
+}
+body .pinned__logo {
+  display: flex;
+}
+body .pinned__logo .logo-img {
+  margin-left: auto;
+}
+body .segmented__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=main.css.map */
