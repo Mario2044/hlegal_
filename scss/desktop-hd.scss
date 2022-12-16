@@ -1,0 +1,188 @@
+@media (min-width:1199px) {
+    body{
+        .wraps {
+            &__location {
+                display: flex;
+                margin: 0 auto;
+            }
+            &__wrap {
+                width: 33.333%;
+                &:not(:last-child) {
+                    margin-right: 30px;
+                }
+            }
+            &__wrap-size {
+                width: 33.333%;
+                margin: 0;
+                padding-top: 9px;
+                background-color: #FFFFFF;
+            }
+            &__wrap-photo {
+                border-radius: 12px 12px 0 0;
+            }
+        }
+        .content {
+            padding: 0 160px;
+        }
+        .header {
+            &__contacts {
+                display: none;
+            }
+        }
+        .logo {
+            &__head {
+                display: none;
+            }
+        }
+        .head {
+            &__contact {
+                width: 55%;
+                text-align: right;
+                padding-top: 19px;
+            }
+            &__facebook {
+                position: relative;
+                top: 6px;
+            }
+            &__geo {
+                margin-top: 10px;
+                display: inline-block;
+                font-family: 'Montserrat';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0em;
+                color: #B3B3BA;
+            }
+            &__img {
+                width: 45%;
+                display: flex;
+                align-items: center;
+                img {
+                    width: 445px;
+                }
+            }
+            &__menu {
+                display: flex;
+                margin-left: auto;
+                margin-top: 2px
+            }
+            &__menu-item-setting {
+                list-style: none;
+                padding-right: 14px;
+                font-family: 'Montserrat';
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0em;
+                color: #24A3FF;
+            }
+            &__menu-item {
+                list-style: none;
+                font-family: 'Montserrat';
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0em;
+                color: #24A3FF;
+            }
+            &__btn-lang {
+                width: 33px;
+                height: 25px;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                color: #B3B3BA;
+                background-color: #F5F5FA;
+                border: none;
+                cursor: pointer;
+            }
+            &__btn-lang-background {
+                width: 33px;
+                height: 25px;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                color: #FFFFFF;
+                border: none;
+                background: #F0145A;
+                border-radius: 25%;
+            }
+            &__link {
+                margin-left: auto;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                text-decoration: none;
+                color: #B3B3BA;
+                margin-top: 3px;
+            }
+        }
+        .space {
+            display: flex;
+            padding-top: 30px;
+            margin-top: -32px;
+            padding-bottom: 30px;
+            background-color: #FFFFFF;
+        }
+        .size {
+            padding-top: 30px;
+        }
+        &:nth-child(3) {
+            padding: 30px 0 19px;
+        }
+
+        .bottom-line {
+            max-width: 1920px;
+        }
+        .contact {
+            &__info {
+                display: unset;
+                & > a, img {
+                    padding-right: 2px;
+                }
+            }
+            &__bottom {
+                margin-bottom: 15px;
+            }
+            &__geo {
+                display: inline-block;
+                position: relative;
+                top: 2px;
+            }
+            &__map {
+                display: inline-block;
+                position: relative;
+                top: 1px;
+            }
+            &__img {
+                display: inline-block; 
+                position: relative;
+                bottom: 4px;
+            }
+            &__phone {
+                display: inline-block;
+                position: relative;
+                top: -17px;
+            }
+            &__email {
+                display: inline-block;
+                position: relative;
+                top: -18px;
+            }
+            &__company {
+                text-align: right;
+                position: relative;
+                top: -18px;
+                margin-top: -94px;
+            }
+            &__doc { 
+                position: relative;
+                top: -19px;
+            }
+            &__doc-upper {
+                position: unset;
+            }
+        }
+    }
+}

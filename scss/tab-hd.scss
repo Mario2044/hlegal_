@@ -1,0 +1,24 @@
+@media (min-width:960px) {
+    body{
+        .wraps {
+            &__location {
+                display: flex;
+                margin: 0 auto;
+            }
+            &__wrap {
+                width: -webkit-fill-available;
+                &:not(:last-child) {
+                    margin-right: 30px;
+                }
+            }
+            &__wrap-size {
+                margin: 0;
+                padding-top: 9px;
+            }
+        }
+        .content {
+            padding: 0 60px;
+        }
+    } 
+}
+       

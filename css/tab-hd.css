@@ -1,0 +1,21 @@
+@media (min-width: 960px) {
+  body .wraps__location {
+    display: flex;
+    margin: 0 auto;
+  }
+  body .wraps__wrap {
+    width: -webkit-fill-available;
+  }
+  body .wraps__wrap:not(:last-child) {
+    margin-right: 30px;
+  }
+  body .wraps__wrap-size {
+    margin: 0;
+    padding-top: 9px;
+  }
+  body .content {
+    padding: 0 60px;
+  }
+}
+
+/*# sourceMappingURL=tab-hd.css.map */
