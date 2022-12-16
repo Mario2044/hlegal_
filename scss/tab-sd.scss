@@ -1,39 +1,80 @@
-@media (max-width:700px) {
+@media (max-width:1011px) {
     
     body {
-        margin: 0 auto;
-            font-family: 'Montserrat', sans-serif;
-        a {
-            text-decoration: none;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
+        .wraps {
+            &__location {
+                display: flex;
+                margin: 0 auto;
+                padding-bottom: 30px;
+            }
+            &__wrap {
+                width: 33.333%;
+                background-color: #FFFFFF;
+                &:not(:last-child) {
+                    margin-right: 30px;
+                }
+            }
+            &__wrap-size {
+                width: 33.333%;
+                margin: 0;
+                padding-top: 9px;
+                background-color: #FFFFFF;
+            }
+            &__title {
+                padding: 0 30px;
+                font-family: 'Montserrat';
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #24A3FF;
+            }
+            &__data {
+                padding: 0 30px;
+                font-family: 'Montserrat';
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 15px;
+                letter-spacing: 1px;
+                text-align: left;
+                color: #B3B3BA;
+                text-transform: uppercase;
+            }
+            &__text {
+                padding: 0 30px;
+                font-family: 'Montserrat';
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 30px;
+                padding-bottom: 30px;
+            }
+            &__line {
+                border-bottom: solid 4px #E6E6F0;
+                margin: 0 30px;
+            }
+            &__photo {
+                border-radius: 12px 12px 0 0;
+                text-align: center;
+            }
         }
         .content {
-            min-width: 320px;
+            padding: 0 45px;
+            max-width: 1920px;
             margin: 0 auto;
             box-sizing: border-box;
-            padding: 0 20px;
             &:nth-child(1) {
                 position: relative;
                 top: 16px;
-                padding-bottom: 7px;
             }
-        }
-        .space {
-            display: none;
-            padding-top: 30px;
-            margin-top: -32px;
-            padding-bottom: 30px;
-            background-color: #FFFFFF;
         }
         .header {
             &__contacts {
-                display: flex;
                 padding: 10px;
-                position: relative;
-                top: -13px;
+                display: contents;
             }
             &__contacts-link {
                 margin-left: auto;
@@ -51,7 +92,7 @@
                 font-size: 12px;
                 line-height: 15px;
                 color: #B3B3BA;
-                background-color: #F5F5FA;
+                background-color: #ffffff;
                 border: none;
                 cursor: pointer;
             }
@@ -66,24 +107,46 @@
                 background: #F0145A;
                 border-radius: 25%;
             }
-            &__img {
-                display: none;
+            &__geo {
+                margin-top: 10px;
+                display: inline-block;
+                font-family: 'Montserrat';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0em;
+                color: #B3B3BA;
             }
             &__facebook {
-                display: none;
-            }
-            &__geo {
-                display: none;
+                display: inline-block;
+                position: relative;
+                top: 6px;
             }
         }
         .logo {
             &__head {
                 display: flex;
+                position: relative;
+                top: -9px;
             }
             &__hum-menu {
-                display: flex;
+                display: none;
                 margin-left: auto;
                 align-items: center;
+            }
+        }
+        .heads {
+            &__contact-tab { 
+                display: flex;
+            }
+        }
+        .wrapper {
+            &:nth-child(1) {
+                background-color: #FFFFFF;
+            }
+            &:nth-child(3) {
+                background-color: #ffffff;
+                padding: 0;
             }
         }
         .head {
@@ -111,7 +174,7 @@
             }
             &__img {
                 width: 40%;
-                display: none;
+                display: flex;
                 align-items: center;
                 img {
                     width: 340px;
@@ -120,9 +183,12 @@
             &__menu {
                 margin-left: auto;
                 display: flex;
+                padding: 0 0 45px;
             }
             &__menu-itemss {
-                display: none;
+                display: contents;
+                margin-left: auto;
+              
             }
             &__menu-item-setting {
                 list-style: none;
@@ -180,23 +246,12 @@
                 align-items: center;
             }
         }
-        .wrapper {
-            &:nth-child(1) {
-                background-color: #F5F5FA;
-            }
-            &:nth-child(3) {
-                background-color: #F5F5FA;
-                padding: 0 0 32px;
-            }
-            &:nth-child(4) {
-                background-color: #F5F5FA;
-            }
-            &:nth-child(5) {
-                background-color: #F5F5FA;
-            }
-            &:nth-child(6) {
-                background-color: #F5F5FA;
-            }
+        .space {
+            display: none;
+            padding-top: 25px;
+            margin-top: -32px;
+            padding-bottom: 30px;
+            background-color: #FFFFFF;
         }
         .buttons {
             &__size {
@@ -237,58 +292,12 @@
                 background-color: #FFFFFF;
             }
         }
-        .wraps {
-            &__location {
-                padding-bottom: 30px;
-                margin: 0 auto;
-            }
-            &__wrap {
-                border-radius: 12px 12px 0 0;
-                background-color: #FFFFFF;
-                &:nth-child(6) {
-                    margin: 0;
-                    padding-top: 9px;
-                }
-            }
-            &__title {
-                padding: 0 30px;
-                font-family: 'Montserrat';
-                font-size: 16px;
-                font-weight: 700;
-                line-height: 20px;
-                letter-spacing: 0em;
-                text-align: left;
-                color: #24A3FF;
-            }
-            &__data {
-                padding: 0 30px;
-                font-family: 'Montserrat';
-                font-size: 12px;
-                font-weight: 700;
-                line-height: 15px;
-                letter-spacing: 1px;
-                text-align: left;
-                color: #B3B3BA;
-                text-transform: uppercase;
-            }
-            &__text {
-                padding: 0 30px;
-                font-family: 'Montserrat';
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 22px;
-                letter-spacing: 0em;
-                text-align: left;
-                margin-bottom: 30px;
-                padding-bottom: 30px;
-            }
-            &__line {
-                border-bottom: solid 4px #E6E6F0;
-                margin: 0 30px;
-            }
-            &__photo {
-                border-radius: 12px 12px 0 0;
-            }
+        .size {
+            padding: 30px 0;
+            background-color: #F5F5FA;
+        }
+        &:nth-child(3) {
+            padding: 30px 0 19px;
         }
         .button {
             &__publications {
@@ -313,13 +322,15 @@
         }
         .bottom-line {
             border-bottom: solid 3px #E6E6F0;
-            max-width: 320px;
+            max-width: 1920px;
             margin: 0 auto;
         }
         .contact {
             &__info {
-                display: flow-root;
-                text-align: center;
+                display: unset;
+                & > a, img {
+                    padding-right: 3px;
+                }
             }
             &__geo {
                 margin-top: 30px;
@@ -329,6 +340,12 @@
                 line-height: 20px;
                 letter-spacing: 0em;
                 color: #323264;
+                display: inline-block;
+                position: relative;
+                top: 2px;
+            }
+            &__bottom {
+                margin-bottom: 15px;
             }
             &__map {
                 margin-top: 10px;
@@ -339,6 +356,9 @@
                 letter-spacing: 1px;
                 color: #24A3FF;
                 text-transform: uppercase;
+                display: inline-block;
+                position: relative;
+                top: 1px;
             }
             &__phone {
                 margin-top: 10px;
@@ -348,6 +368,9 @@
                 line-height: 20px;
                 letter-spacing: 0em;
                 color: #46466E;
+                display: inline-block;
+                position: relative;
+                top: -27px;
             }
             &__email {
                 margin-top: -12px;
@@ -357,6 +380,9 @@
                 line-height: 20px;
                 letter-spacing: 0em;
                 color: #24A3FF;
+                display: inline-block;
+                position: relative;
+                top: -28px;
             }
             &__company {
                 margin-top: 30px;
@@ -366,11 +392,25 @@
                 line-height: 20px;
                 letter-spacing: 0px;
                 color: #B3B3BA;
-                text-align: center;
+                text-align: right;
+
+                text-align: left;
             }
             &__img {
                 margin-top: 21px;
+                display: inline-block; 
+                position: relative;
+                top: -14px;
+            }
+            &__doc { 
+                position: relative;
+                top: -30px;
+            }
+            &__doc-upper {
+                position: unset;
             }
         }
     }
 }
+
+
