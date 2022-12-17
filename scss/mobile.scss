@@ -21,6 +21,21 @@
                 padding-bottom: 7px;
             }
         }
+        .container {
+            &__location-tab {
+                display: block;
+                margin: 0 auto;
+                padding-bottom: 30px;
+            }
+            &__wrap-tab {
+                width: 100%;
+                background-color: #FFFFFF;
+                border-radius: 12px 12px 0 0;
+                &:not(:last-child) {
+                    margin-right: 30px;
+                }
+            }
+        }
         .space {
             display: none;
             padding-top: 30px;
@@ -69,6 +84,9 @@
             &__img {
                 display: none;
             }
+            &__img-last {
+                display: none;
+            }
             &__facebook {
                 display: none;
             }
@@ -84,6 +102,11 @@
                 display: flex;
                 margin-left: auto;
                 align-items: center;
+                margin-bottom: 6px;
+            }
+            &__img {
+                position: relative;
+                top: -4px;
             }
         }
         .head {
@@ -92,7 +115,7 @@
                 text-align: right;
                 position: relative;
                 top: 14px;
-                display: none;
+                display: flex;
             }
             &__facebook {
                 display: inline-block;
@@ -119,7 +142,7 @@
             }
             &__menu {
                 margin-left: auto;
-                display: flex;
+                display: none;
             }
             &__menu-itemss {
                 display: none;
@@ -150,7 +173,7 @@
                 font-size: 12px;
                 line-height: 15px;
                 color: #B3B3BA;
-                background-color: #F5F5FA;
+                background-color: #FFFFFF;
                 border: none;
                 cursor: pointer;
             }
@@ -293,6 +316,8 @@
         .button {
             &__publications {
                 text-align: center;
+                position: relative;
+                top: 9px;
             }
             &__form {
                 width: 211px;
@@ -311,9 +336,15 @@
                 border: 0;
             }
         }
+        .buttons {
+            &__size {
+                position: relative;
+                top: 10px;
+            }
+        }
         .bottom-line {
             border-bottom: solid 3px #E6E6F0;
-            max-width: 320px;
+            width: 100%;
             margin: 0 auto;
         }
         .contact {
@@ -322,6 +353,7 @@
                 text-align: center;
             }
             &__geo {
+                margin-bottom: 10px;
                 margin-top: 30px;
                 font-family: 'Montserrat';
                 font-size: 16px;
@@ -331,6 +363,7 @@
                 color: #323264;
             }
             &__map {
+                display: block;
                 margin-top: 10px;
                 font-family: 'Montserrat';
                 font-size: 12px;
@@ -341,6 +374,8 @@
                 text-transform: uppercase;
             }
             &__phone {
+                margin-bottom: 10px;
+                display: block;
                 margin-top: 10px;
                 font-family: 'Montserrat';
                 font-size: 16px;
@@ -350,6 +385,7 @@
                 color: #46466E;
             }
             &__email {
+                display: block;
                 margin-top: -12px;
                 font-family: 'Montserrat';
                 font-size: 16px;
@@ -357,9 +393,10 @@
                 line-height: 20px;
                 letter-spacing: 0em;
                 color: #24A3FF;
+                margin-bottom: 0;
             }
             &__company {
-                margin-top: 30px;
+                margin: 0;
                 font-family: 'Montserrat';
                 font-size: 16px;
                 font-weight: 400;
@@ -369,7 +406,14 @@
                 text-align: center;
             }
             &__img {
-                margin-top: 21px;
+                margin-top: 15px;    
+                margin-bottom: 10px;
+            }
+            &__doc-upper {
+                display: none;
+            }
+            &__doc {
+                display: none;
             }
         }
     }

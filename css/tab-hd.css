@@ -1,10 +1,11 @@
-@media (max-width: 1120px) {
+@media (max-width: 1157px) {
   body .wraps__location {
     display: flex;
     margin: 0 auto;
   }
   body .wraps__wrap {
     width: 33.333%;
+    border-radius: 12px 12px 0 0;
   }
   body .wraps__wrap:not(:last-child) {
     margin-right: 30px;
@@ -19,11 +20,53 @@
     border-radius: 12px 12px 0 0;
     text-align: center;
   }
+  body .wrapper:nth-child(3) {
+    padding: 0 0 30px;
+  }
   body .content {
     padding: 0 60px;
   }
+  body .container__location-tab {
+    display: none;
+  }
+  body .content-fit {
+    display: flex;
+    width: 100%;
+  }
   body .header__contacts {
     display: none;
+    padding: 10px;
+  }
+  body .header__contacts-link {
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #B3B3BA;
+    margin-top: 3px;
+  }
+  body .header__contacts-btn-lang {
+    width: 33px;
+    height: 25px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #B3B3BA;
+    background-color: #F5F5FA;
+    border: none;
+    cursor: pointer;
+  }
+  body .header__contacts-btn-lang-background {
+    width: 33px;
+    height: 25px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    border: none;
+    background: #F0145A;
+    border-radius: 25%;
   }
   body .logo__head {
     display: none;
@@ -76,7 +119,7 @@
     display: flex;
     margin-left: auto;
     position: relative;
-    top: -82px;
+    top: -52px;
   }
   body .head__menu-item-setting {
     list-style: none;
@@ -104,7 +147,7 @@
     font-size: 12px;
     line-height: 15px;
     color: #B3B3BA;
-    background-color: #F5F5FA;
+    background-color: #FFFFFF;
     border: none;
     cursor: pointer;
   }
@@ -139,6 +182,8 @@
     margin-top: -32px;
     padding-bottom: 30px;
     background-color: #FFFFFF;
+    position: relative;
+    top: 33px;
   }
   body .size {
     padding-top: 30px;
@@ -148,6 +193,14 @@
   }
   body .bottom-line {
     max-width: 1920px;
+  }
+  body .button__publications {
+    margin-top: 30px;
+    margin-bottom: 7px;
+  }
+  body .buttons__size {
+    position: relative;
+    top: -9px;
   }
   body .contact__info {
     display: unset;

@@ -3,7 +3,7 @@
     body {
         .wraps {
             &__location {
-                display: flex;
+                display: none;
                 margin: 0 auto;
                 padding-bottom: 30px;
             }
@@ -19,6 +19,61 @@
                 margin: 0;
                 padding-top: 9px;
                 background-color: #FFFFFF;
+            }
+            &__title {
+                padding: 0 30px;
+                font-family: 'Montserrat';
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #24A3FF;
+            }
+            &__data {
+                padding: 0 30px;
+                font-family: 'Montserrat';
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 15px;
+                letter-spacing: 1px;
+                text-align: left;
+                color: #B3B3BA;
+                text-transform: uppercase;
+            }
+            &__text {
+                padding: 0 30px;
+                font-family: 'Montserrat';
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 30px;
+                padding-bottom: 30px;
+            }
+            &__line {
+                border-bottom: solid 4px #E6E6F0;
+                margin: 0 30px;
+            }
+            &__photo {
+                border-radius: 12px 12px 0 0;
+                text-align: center;
+            }
+        }
+        .container {
+            &__location-tab {
+                display: flex;
+                margin: 0 auto;
+                padding-bottom: 30px;
+            }
+            &__wrap-tab {
+                width: 50%;
+                background-color: #FFFFFF;
+                border-radius: 12px 12px 0 0;
+                &:not(:last-child) {
+                    margin-right: 30px;
+                }
             }
             &__title {
                 padding: 0 30px;
@@ -83,7 +138,9 @@
                 line-height: 20px;
                 text-decoration: none;
                 color: #B3B3BA;
-                margin-top: 3px;
+                margin-right: -13px;
+                position: relative;
+                top: 2px;
             }
             &__contacts-btn-lang {
                 width: 33px;
@@ -116,11 +173,17 @@
                 line-height: 20px;
                 letter-spacing: 0em;
                 color: #B3B3BA;
+                position: relative;
+                top: 2px;
             }
             &__facebook {
                 display: inline-block;
                 position: relative;
-                top: 6px;
+                top: 7px;
+
+            }
+            &__img-last {
+                margin-left: 12px;
             }
         }
         .logo {
@@ -147,6 +210,10 @@
             &:nth-child(3) {
                 background-color: #ffffff;
                 padding: 0;
+            }
+            &:nth-child(7) {
+                display: flex;
+                background-color: #F5F5FA;
             }
         }
         .head {
@@ -216,7 +283,7 @@
                 font-size: 12px;
                 line-height: 15px;
                 color: #B3B3BA;
-                background-color: #F5F5FA;
+                background-color: #ffffff;
                 border: none;
                 cursor: pointer;
             }
@@ -301,7 +368,11 @@
         }
         .button {
             &__publications {
-                text-align: center;
+                    margin-top: 0;
+                    text-align: center;
+                    position: relative;
+                    top: 33px;
+                    margin-bottom: 42px;
             }
             &__form {
                 width: 211px;
@@ -318,6 +389,12 @@
                 margin-top: -30px;
                 margin-bottom: 60px;
                 border: 0;
+            }
+        }
+        .buttons {
+            &__size {
+                position: relative;
+                top: -2px;
             }
         }
         .bottom-line {
@@ -394,7 +471,7 @@
                 color: #B3B3BA;
                 text-align: right;
 
-                text-align: left;
+                text-align: center;
             }
             &__img {
                 margin-top: 21px;

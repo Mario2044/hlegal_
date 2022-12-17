@@ -1,4 +1,4 @@
-@media (max-width:1120px) {
+@media (max-width:1157px) {
    
     body{
         .wraps {
@@ -8,6 +8,7 @@
             }
             &__wrap {
                 width: 33.333%;
+                border-radius: 12px 12px 0 0;
                 &:not(:last-child) {
                     margin-right: 30px;
                 }
@@ -23,12 +24,58 @@
                 text-align: center;
             }
         }
+        .wrapper {
+            &:nth-child(3) {
+                padding: 0 0 30px;
+            }
+        }
         .content {
             padding: 0 60px;
+        }
+        .container {
+            &__location-tab {
+                display: none;
+            }
+        }
+        .content-fit {
+            display: flex;
+            width: 100%;
         }
         .header {
             &__contacts {
                 display: none;
+                padding: 10px;
+            }
+            &__contacts-link {
+                margin-left: auto;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                text-decoration: none;
+                color: #B3B3BA;
+                margin-top: 3px;
+            }
+            &__contacts-btn-lang {
+                width: 33px;
+                height: 25px;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                color: #B3B3BA;
+                background-color: #F5F5FA;
+                border: none;
+                cursor: pointer;
+            }
+            &__contacts-btn-lang-background {
+                width: 33px;
+                height: 25px;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                color: #FFFFFF;
+                border: none;
+                background: #F0145A;
+                border-radius: 25%;
             }
         }
         .logo {
@@ -85,7 +132,7 @@
                 display: flex;
                 margin-left: auto;
                 position: relative;
-                top: -82px;
+                top: -52px;
             }
             &__menu-item-setting {
                 list-style: none;
@@ -113,7 +160,7 @@
                 font-size: 12px;
                 line-height: 15px;
                 color: #B3B3BA;
-                background-color: #F5F5FA;
+                background-color: #FFFFFF;
                 border: none;
                 cursor: pointer;
             }
@@ -149,6 +196,8 @@
             margin-top: -32px;
             padding-bottom: 30px;
             background-color: #FFFFFF;
+            position: relative;
+            top: 33px;
         }
         .size {
             padding-top: 30px;
@@ -158,6 +207,18 @@
         }
         .bottom-line {
             max-width: 1920px;
+        }
+        .button {
+            &__publications {
+                margin-top: 30px;
+                margin-bottom: 7px;
+            }
+        }
+        .buttons {
+            &__size {
+                position: relative;
+                top: -9px;
+            }
         }
         .contact {
             &__info {

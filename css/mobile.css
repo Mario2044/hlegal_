@@ -21,6 +21,19 @@
     top: 16px;
     padding-bottom: 7px;
   }
+  body .container__location-tab {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  body .container__wrap-tab {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 12px 12px 0 0;
+  }
+  body .container__wrap-tab:not(:last-child) {
+    margin-right: 30px;
+  }
   body .space {
     display: none;
     padding-top: 30px;
@@ -68,6 +81,9 @@
   body .header__img {
     display: none;
   }
+  body .header__img-last {
+    display: none;
+  }
   body .header__facebook {
     display: none;
   }
@@ -81,13 +97,18 @@
     display: flex;
     margin-left: auto;
     align-items: center;
+    margin-bottom: 6px;
+  }
+  body .logo__img {
+    position: relative;
+    top: -4px;
   }
   body .head__contact {
     width: 60%;
     text-align: right;
     position: relative;
     top: 14px;
-    display: none;
+    display: flex;
   }
   body .head__facebook {
     display: inline-block;
@@ -114,7 +135,7 @@
   }
   body .head__menu {
     margin-left: auto;
-    display: flex;
+    display: none;
   }
   body .head__menu-itemss {
     display: none;
@@ -145,7 +166,7 @@
     font-size: 12px;
     line-height: 15px;
     color: #B3B3BA;
-    background-color: #F5F5FA;
+    background-color: #FFFFFF;
     border: none;
     cursor: pointer;
   }
@@ -280,6 +301,8 @@
   }
   body .button__publications {
     text-align: center;
+    position: relative;
+    top: 9px;
   }
   body .button__form {
     width: 211px;
@@ -297,9 +320,13 @@
     margin-bottom: 60px;
     border: 0;
   }
+  body .buttons__size {
+    position: relative;
+    top: 10px;
+  }
   body .bottom-line {
     border-bottom: solid 3px #E6E6F0;
-    max-width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
   body .contact__info {
@@ -307,6 +334,7 @@
     text-align: center;
   }
   body .contact__geo {
+    margin-bottom: 10px;
     margin-top: 30px;
     font-family: "Montserrat";
     font-size: 16px;
@@ -316,6 +344,7 @@
     color: #323264;
   }
   body .contact__map {
+    display: block;
     margin-top: 10px;
     font-family: "Montserrat";
     font-size: 12px;
@@ -326,6 +355,8 @@
     text-transform: uppercase;
   }
   body .contact__phone {
+    margin-bottom: 10px;
+    display: block;
     margin-top: 10px;
     font-family: "Montserrat";
     font-size: 16px;
@@ -335,6 +366,7 @@
     color: #46466E;
   }
   body .contact__email {
+    display: block;
     margin-top: -12px;
     font-family: "Montserrat";
     font-size: 16px;
@@ -342,9 +374,10 @@
     line-height: 20px;
     letter-spacing: 0em;
     color: #24A3FF;
+    margin-bottom: 0;
   }
   body .contact__company {
-    margin-top: 30px;
+    margin: 0;
     font-family: "Montserrat";
     font-size: 16px;
     font-weight: 400;
@@ -354,7 +387,14 @@
     text-align: center;
   }
   body .contact__img {
-    margin-top: 21px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  body .contact__doc-upper {
+    display: none;
+  }
+  body .contact__doc {
+    display: none;
   }
 }
 
