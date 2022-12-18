@@ -3,12 +3,14 @@
     display: flex;
     margin: 0 auto;
   }
+  body .wraps__location-wrap {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   body .wraps__wrap {
     width: 33.333%;
     border-radius: 12px 12px 0 0;
-  }
-  body .wraps__wrap:not(:last-child) {
-    margin-right: 30px;
   }
   body .wraps__wrap-size {
     width: 33.333%;
@@ -16,12 +18,11 @@
     padding-top: 9px;
     background-color: #FFFFFF;
   }
-  body .wraps__photo {
-    border-radius: 12px 12px 0 0;
-    text-align: center;
-  }
   body .wrapper:nth-child(3) {
-    padding: 0 0 30px;
+    padding: 0;
+  }
+  body .wrapper:nth-child(2) {
+    padding-bottom: 14px;
   }
   body .content {
     padding: 0 60px;
@@ -29,58 +30,15 @@
   body .container__location-tab {
     display: none;
   }
-  body .content-fit {
-    display: flex;
-    width: 100%;
-  }
   body .header__contacts {
     display: none;
-    padding: 10px;
   }
-  body .header__contacts-link {
-    margin-left: auto;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    text-decoration: none;
-    color: #B3B3BA;
-    margin-top: 3px;
-  }
-  body .header__contacts-btn-lang {
-    width: 33px;
-    height: 25px;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    color: #B3B3BA;
-    background-color: #F5F5FA;
-    border: none;
-    cursor: pointer;
-  }
-  body .header__contacts-btn-lang-background {
-    width: 33px;
-    height: 25px;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    color: #FFFFFF;
-    border: none;
-    background: #F0145A;
-    border-radius: 25%;
-  }
-  body .logo__head {
+  body .logo__main {
     display: none;
-  }
-  body .logo__hum-menu {
-    display: none;
-    margin-left: auto;
-    align-items: center;
   }
   body .head__contact {
-    width: 60%;
-    text-align: right;
     position: relative;
-    top: 21px;
+    top: -51px;
   }
   body .head__facebook {
     display: inline-block;
@@ -98,28 +56,27 @@
     color: #B3B3BA;
   }
   body .head__img {
-    width: 40%;
-    display: flex;
-    align-items: center;
+    position: relative;
+    top: 54px;
   }
   body .head__img img {
-    width: 445px;
+    width: 382px;
   }
   body .head__menu {
-    margin-left: auto;
-    display: flex;
+    position: relative;
+    top: -50px;
   }
   body .head__menu-items {
-    display: none;
+    display: flex;
     margin-left: auto;
     position: relative;
     top: -18px;
   }
   body .head__menu-itemss {
-    display: flex;
+    display: none;
     margin-left: auto;
     position: relative;
-    top: -52px;
+    top: -26px;
   }
   body .head__menu-item-setting {
     list-style: none;
@@ -171,36 +128,18 @@
     color: #B3B3BA;
     margin-top: 3px;
   }
-  body .head__hum-menu {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-  }
-  body .space {
-    display: flex;
-    padding-top: 25px;
-    margin-top: -32px;
-    padding-bottom: 30px;
-    background-color: #FFFFFF;
-    position: relative;
-    top: 33px;
-  }
   body .size {
     padding-top: 30px;
-  }
-  body:nth-child(3) {
-    padding: 30px 0 19px;
-  }
-  body .bottom-line {
-    max-width: 1920px;
+    padding-bottom: 30px;
   }
   body .button__publications {
-    margin-top: 30px;
-    margin-bottom: 7px;
+    text-align: center;
+    position: relative;
+    top: -7px;
   }
   body .buttons__size {
     position: relative;
-    top: -9px;
+    top: -5px;
   }
   body .contact__info {
     display: unset;
@@ -208,46 +147,54 @@
   body .contact__info > a, body .contact__info img {
     padding-right: 3px;
   }
-  body .contact__bottom {
-    margin-bottom: 15px;
-  }
   body .contact__geo {
     display: inline-block;
     position: relative;
-    top: 2px;
+    top: 4px;
+  }
+  body .contact__bottom {
+    display: flex;
+    justify-content: space-between;
   }
   body .contact__map {
     display: inline-block;
     position: relative;
-    top: 1px;
-  }
-  body .contact__img {
-    display: inline-block;
-    position: relative;
-    bottom: 4px;
+    top: 4px;
   }
   body .contact__phone {
     display: inline-block;
     position: relative;
-    top: -17px;
+    top: -27px;
   }
   body .contact__email {
     display: inline-block;
     position: relative;
-    top: -18px;
+    top: -28px;
   }
   body .contact__company {
     text-align: right;
     position: relative;
-    top: -18px;
-    margin-top: -94px;
+    top: -130px;
+    display: none;
+  }
+  body .contact__img {
+    margin-top: 21px;
+    display: inline-block;
+    position: relative;
+    top: -14px;
   }
   body .contact__doc {
     position: relative;
-    top: -19px;
+    top: -30px;
   }
   body .contact__doc-upper {
-    position: unset;
+    position: relative;
+    top: 3px;
+  }
+  body .contact__foot-company {
+    text-align: right;
+    position: relative;
+    top: 20px;
   }
 }
 

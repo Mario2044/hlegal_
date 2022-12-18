@@ -6,12 +6,14 @@
                 display: flex;
                 margin: 0 auto;
             }
+            &__location-wrap {
+                display: none;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
             &__wrap {
                 width: 33.333%;
                 border-radius: 12px 12px 0 0;
-                &:not(:last-child) {
-                    margin-right: 30px;
-                }
             }
             &__wrap-size {
                 width: 33.333%;
@@ -19,14 +21,13 @@
                 padding-top: 9px;
                 background-color: #FFFFFF;
             }
-            &__photo {
-                border-radius: 12px 12px 0 0;
-                text-align: center;
-            }
         }
         .wrapper {
             &:nth-child(3) {
-                padding: 0 0 30px;
+                padding: 0;
+            }
+            &:nth-child(2) {
+                padding-bottom: 14px;
             }
         }
         .content {
@@ -37,63 +38,20 @@
                 display: none;
             }
         }
-        .content-fit {
-            display: flex;
-            width: 100%;
-        }
         .header {
             &__contacts {
                 display: none;
-                padding: 10px;
-            }
-            &__contacts-link {
-                margin-left: auto;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 20px;
-                text-decoration: none;
-                color: #B3B3BA;
-                margin-top: 3px;
-            }
-            &__contacts-btn-lang {
-                width: 33px;
-                height: 25px;
-                font-weight: 700;
-                font-size: 12px;
-                line-height: 15px;
-                color: #B3B3BA;
-                background-color: #F5F5FA;
-                border: none;
-                cursor: pointer;
-            }
-            &__contacts-btn-lang-background {
-                width: 33px;
-                height: 25px;
-                font-weight: 700;
-                font-size: 12px;
-                line-height: 15px;
-                color: #FFFFFF;
-                border: none;
-                background: #F0145A;
-                border-radius: 25%;
             }
         }
         .logo {
-            &__head {
+            &__main {
                 display: none;
-            }
-            &__hum-menu {
-                display: none;
-                margin-left: auto;
-                align-items: center;
             }
         }
         .head {
             &__contact {
-                width: 60%;
-                text-align: right;
                 position: relative;
-                top: 21px;
+                top: -51px;
             }
             &__facebook {
                 display: inline-block;
@@ -111,28 +69,27 @@
                 color: #B3B3BA;
             }
             &__img {
-                width: 40%;
-                display: flex;
-                align-items: center;
+                position: relative;
+                top: 54px;
                 img {
-                    width: 445px;
+                    width: 382px;
                 }
             }
             &__menu {
-                margin-left: auto;
-                display: flex;
+                position: relative;
+                top: -50px;
             }
             &__menu-items {
-                display: none;
+                display: flex;
                 margin-left: auto;
                 position: relative;
                 top: -18px;
             }
             &__menu-itemss {
-                display: flex;
+                display: none;
                 margin-left: auto;
                 position: relative;
-                top: -52px;
+                top: -26px;
             }
             &__menu-item-setting {
                 list-style: none;
@@ -184,40 +141,22 @@
                 color: #B3B3BA;
                 margin-top: 3px;
             }
-            &__hum-menu {
-                display: flex;
-                margin-left: auto;
-                align-items: center;
-            }
-        }
-        .space {
-            display: flex;
-            padding-top: 25px;
-            margin-top: -32px;
-            padding-bottom: 30px;
-            background-color: #FFFFFF;
-            position: relative;
-            top: 33px;
         }
         .size {
             padding-top: 30px;
-        }
-        &:nth-child(3) {
-            padding: 30px 0 19px;
-        }
-        .bottom-line {
-            max-width: 1920px;
+            padding-bottom: 30px;
         }
         .button {
             &__publications {
-                margin-top: 30px;
-                margin-bottom: 7px;
+                text-align: center;
+                position: relative;
+                top: -7px;
             }
         }
         .buttons {
             &__size {
                 position: relative;
-                top: -9px;
+                top: -5px;
             }
         }
         .contact {
@@ -227,46 +166,54 @@
                     padding-right: 3px;
                 }
             }
-            &__bottom {
-                margin-bottom: 15px;
-            }
             &__geo {
                 display: inline-block;
                 position: relative;
-                top: 2px;
+                top: 4px;
+            }
+            &__bottom {
+                display: flex;
+                justify-content: space-between;
             }
             &__map {
                 display: inline-block;
                 position: relative;
-                top: 1px;
-            }
-            &__img {
-                display: inline-block; 
-                position: relative;
-                bottom: 4px;
+                top: 4px;
             }
             &__phone {
                 display: inline-block;
                 position: relative;
-                top: -17px;
+                top: -27px;
             }
             &__email {
                 display: inline-block;
                 position: relative;
-                top: -18px;
+                top: -28px;
             }
             &__company {
                 text-align: right;
                 position: relative;
-                top: -18px;
-                margin-top: -94px;
+                top: -130px;
+                display: none;
+            }
+            &__img {
+                margin-top: 21px;
+                display: inline-block; 
+                position: relative;
+                top: -14px;
             }
             &__doc { 
                 position: relative;
-                top: -19px;
+                top: -30px;
             }
             &__doc-upper {
-                position: unset;
+                position: relative;
+                top: 3px;
+            }
+            &__foot-company {
+                text-align: right;
+                position: relative;
+                top: 20px;
             }
         }
     }
