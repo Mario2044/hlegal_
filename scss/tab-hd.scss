@@ -1,3 +1,5 @@
+@import 'colors.scss';
+@import 'styles.scss';
 @media (max-width:1157px) {
    
     body{
@@ -19,7 +21,7 @@
                 width: 33.333%;
                 margin: 0;
                 padding-top: 9px;
-                background-color: #FFFFFF;
+                background-color: $color3;
             }
         }
         .wrapper {
@@ -61,12 +63,12 @@
             &__geo {
                 margin-top: 10px;
                 display: inline-block;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 20px;
                 letter-spacing: 0em;
-                color: #B3B3BA;
+                color: $color6;
             }
             &__img {
                 position: relative;
@@ -94,21 +96,21 @@
             &__menu-item-setting {
                 list-style: none;
                 padding-right: 14px;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 20px;
                 letter-spacing: 0em;
-                color: #24A3FF;
+                color: $color4;
             }
             &__menu-item {
                 list-style: none;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 20px;
                 letter-spacing: 0em;
-                color: #24A3FF;
+                color: $color4;
             }
             &__btn-lang {
                 width: 33px;
@@ -116,8 +118,8 @@
                 font-weight: 700;
                 font-size: 12px;
                 line-height: 15px;
-                color: #B3B3BA;
-                background-color: #FFFFFF;
+                color: $color6;
+                background-color: $color;
                 border: none;
                 cursor: pointer;
             }
@@ -127,9 +129,9 @@
                 font-weight: 700;
                 font-size: 12px;
                 line-height: 15px;
-                color: #FFFFFF;
+                color: $color;
                 border: none;
-                background: #F0145A;
+                background: $color5;
                 border-radius: 25%;
             }
             &__link {
@@ -138,7 +140,7 @@
                 font-size: 16px;
                 line-height: 20px;
                 text-decoration: none;
-                color: #B3B3BA;
+                color: $color6;
                 margin-top: 3px;
             }
         }
@@ -149,8 +151,8 @@
         .button {
             &__publications {
                 text-align: center;
-                position: relative;
-                top: -7px;
+                margin-bottom: 11px;
+                margin-top: 8px;
             }
         }
         .buttons {

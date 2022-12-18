@@ -73,7 +73,7 @@
   body .head__geo {
     margin-top: 10px;
     display: inline-block;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -104,7 +104,7 @@
   body .head__menu-item-setting {
     list-style: none;
     padding-right: 14px;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -113,7 +113,7 @@
   }
   body .head__menu-item {
     list-style: none;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -169,9 +169,6 @@
   body .button__publications {
     margin-top: 0;
     text-align: center;
-    position: relative;
-    top: 25px;
-    margin-bottom: 42px;
   }
   body .buttons__size {
     position: relative;
@@ -233,7 +230,7 @@
   }
   body .contact__foot-company {
     text-align: center;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;

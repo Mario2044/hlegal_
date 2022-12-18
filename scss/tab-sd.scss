@@ -1,3 +1,5 @@
+@import 'colors.scss';
+@import 'styles.scss';
 @media (max-width:1078px) {
     
     body {
@@ -13,7 +15,7 @@
             }
             &__wrap {
                 width: 50%;
-                background-color: #FFFFFF;
+                background-color: $color3;
                 border-radius: 12px 12px 0 0;
                 margin-bottom: 30px;
                 &:not(:last-child) {
@@ -23,7 +25,7 @@
             &__wrap-size {
                 width: 50%;
                 margin-bottom: 30px;
-                background-color: #FFFFFF;
+                background-color: $color3;
                 border-radius: 12px 12px 0 0;
             }
         }
@@ -59,10 +61,10 @@
         }
         .wrapper {
             &:nth-child(1) {
-                background-color: #FFFFFF;
+                background-color: $color3;
             }
             &:nth-child(3) {
-                background-color: #F5F5FA;
+                background-color: $color;
                 padding: 0;
             }
             &:nth-child(4) {
@@ -84,12 +86,12 @@
             &__geo {
                 margin-top: 10px;
                 display: inline-block;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 20px;
                 letter-spacing: 0em;
-                color: #B3B3BA;
+                color: $color6;
             }
             &__img {
                 position: absolute;
@@ -115,7 +117,7 @@
             &__menu-item-setting {
                 list-style: none;
                 padding-right: 14px;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 20px;
@@ -124,7 +126,7 @@
             }
             &__menu-item {
                 list-style: none;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 20px;
@@ -137,8 +139,8 @@
                 font-weight: 700;
                 font-size: 12px;
                 line-height: 15px;
-                color: #B3B3BA;
-                background-color: #FFFFFF;
+                color: $color6;
+                background-color: $color3;
                 border: none;
                 cursor: pointer;
             }
@@ -148,9 +150,9 @@
                 font-weight: 700;
                 font-size: 12px;
                 line-height: 15px;
-                color: #FFFFFF;
+                color: $color3;
                 border: none;
-                background: #F0145A;
+                background: $color5;
                 border-radius: 25%;
             }
             &__link {
@@ -159,7 +161,7 @@
                 font-size: 16px;
                 line-height: 20px;
                 text-decoration: none;
-                color: #B3B3BA;
+                color: $color6;
                 margin-top: 3px;
             }
             &__hum-menu {
@@ -186,9 +188,6 @@
             &__publications {
                     margin-top: 0;
                     text-align: center;
-                    position: relative;
-                    top: 25px;
-                    margin-bottom: 42px;
             }
         }
         .buttons {
@@ -254,12 +253,12 @@
             }
             &__foot-company {
                 text-align: center;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 20px;
                 letter-spacing: 0px;
-                color: #B3B3BA;
+                color: $color6;
                 position: relative;
                 top: -22px;
             }

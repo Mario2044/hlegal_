@@ -1,7 +1,8 @@
-
+@import 'colors.scss';
+@import 'styles.scss';
     body{
         margin: 0 auto;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $styles;
         a {
             text-decoration: none;
         }
@@ -11,23 +12,23 @@
         }
         .wrapper {
             &:nth-child(1) {
-                background-color: #F5F5FA;
+                background-color: $color;
             }
             &:nth-child(2) {
-                background-color: #F5F5FA;
+                background-color: $color;
             }
             &:nth-child(3) {
-                background-color: #F5F5FA;
+                background-color: $color;
                 padding-bottom: 9px;
             }
             &:nth-child(4) {
-                background-color: #F5F5FA;
+                background-color: $color;
             }
             &:nth-child(5) {
-                background-color: #F5F5FA;
+                background-color: $color;
             }
             &:nth-child(6) {
-                background-color: #F5F5FA;
+                background-color: $color;
             }
         }
         .wraps {
@@ -43,7 +44,7 @@
             }
             &__wrap {
                 width: 33.333%;
-                background-color: #FFFFFF;
+                background-color: $color3;
                 border-radius: 12px 12px 0 0;
                 &:not(:last-child) {
                     margin-right: 30px;
@@ -53,33 +54,33 @@
                 width: 33.333%;
                 margin: 0;
                 padding-top: 9px;
-                background-color: #FFFFFF;
+                background-color: $color3;
                 border-radius: 12px 12px 0 0;
             }
             &__title {
                 padding: 0 30px;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 20px;
                 letter-spacing: 0em;
                 text-align: left;
-                color: #24A3FF;
+                color: $color4;
             }
             &__data {
                 padding: 0 30px;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 12px;
                 font-weight: 700;
                 line-height: 15px;
                 letter-spacing: 1px;
                 text-align: left;
-                color: #B3B3BA;
+                color: $color6;
                 text-transform: uppercase;
             }
             &__text {
                 padding: 0 30px;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 14px;
                 font-weight: 400;
                 line-height: 22px;
@@ -89,7 +90,7 @@
                 padding-bottom: 30px;
             }
             &__line {
-                border-bottom: solid 4px #E6E6F0;
+                border-bottom: solid 4px $color3;
                 margin: 0 30px;
             }
             &__photo {
@@ -120,7 +121,7 @@
         }
         .head {
             &__space {
-                background-color: #FFFFFF;
+                background-color: $color3;
             }
             &__contact {
                 display: block;
@@ -135,12 +136,12 @@
             &__geo {
                 margin-top: 10px;
                 display: inline-block;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 20px;
                 letter-spacing: 0em;
-                color: #B3B3BA;
+                color: $color6;
             }
             &__img {
                 position: absolute;
@@ -167,21 +168,21 @@
             &__menu-item-setting {
                 list-style: none;
                 padding-right: 14px;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 20px;
                 letter-spacing: 0em;
-                color: #24A3FF;
+                color: $color4;
             }
             &__menu-item {
                 list-style: none;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 20px;
                 letter-spacing: 0em;
-                color: #24A3FF;
+                color: $color4;
             }
             &__btn-lang {
                 width: 33px;
@@ -189,8 +190,8 @@
                 font-weight: 700;
                 font-size: 12px;
                 line-height: 15px;
-                color: #B3B3BA;
-                background-color: #FFFFFF;
+                color: $color6;
+                background-color: $color3;
                 border: none;
                 cursor: pointer;
             }
@@ -200,9 +201,9 @@
                 font-weight: 700;
                 font-size: 12px;
                 line-height: 15px;
-                color: #FFFFFF;
+                color: $color3;
                 border: none;
-                background: #F0145A;
+                background: $color5;
                 border-radius: 25%;
                 cursor: pointer;
             }
@@ -212,7 +213,7 @@
                 font-size: 16px;
                 line-height: 20px;
                 text-decoration: none;
-                color: #B3B3BA;
+                color: $color6;
                 margin-top: 3px;
             }
             &__hum-menu {
@@ -228,11 +229,11 @@
                 width: 232px;
                 height: 42px;
                 border-radius: 12px;
-                background-color: #E6E6F0;
+                background-color: $color2;
 
             }
             &__btn-small {
-                font-family: 'Montserrat';
+                font-family: $styles;
                 width: 105px;
                 height: 38px;
                 font-weight: 700;
@@ -242,10 +243,10 @@
                 line-height: 20px;
                 color: #323264;
                 cursor: pointer;
-                background-color: #FFFFFF;
+                background-color: $color3;
             }
             &__btn-big {
-                font-family: 'Montserrat';
+                font-family: $styles;
                 margin-left: 2px;
                 width: 121px;
                 height: 38px;
@@ -256,7 +257,7 @@
                 line-height: 20px;
                 color: #323264;
                 cursor: pointer;
-                background-color: #FFFFFF;
+                background-color: $color3;
             }
         }
         .size {
@@ -272,9 +273,9 @@
             &__form {
                 width: 211px;
                 height: 56px;
-                color: #FFFFFF;
-                background-color: #24A3FF;
-                font-family: 'Montserrat';
+                color: $color3;
+                background-color: $color4;
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 20px;
@@ -287,7 +288,7 @@
             }
         }
         .bottom-line {
-            border-bottom: solid 3px #E6E6F0;
+            border-bottom: solid 3px $color2;
             max-width: 1920px;
             margin: 0 auto;
         }
@@ -300,7 +301,7 @@
             }
             &__geo {
                 margin-top: 30px;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 20px;
@@ -316,12 +317,12 @@
             }
             &__map {
                 margin-top: 10px;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 12px;
                 font-weight: 700;
                 line-height: 15px;
                 letter-spacing: 1px;
-                color: #24A3FF;
+                color: $color4;
                 text-transform: uppercase;
                 display: inline-block;
                 position: relative;
@@ -329,35 +330,35 @@
             }
             &__phone {
                 margin-top: 10px;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 20px;
                 letter-spacing: 0em;
-                color: #46466E;
+                color: $color7;
                 display: inline-block;
                 position: relative;
                 top: -27px;
             }
             &__email {
                 margin-top: -12px;
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 20px;
                 letter-spacing: 0em;
-                color: #24A3FF;
+                color: $color4;
                 display: inline-block;
                 position: relative;
                 top: -28px;
             }
             &__company {
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 20px;
                 letter-spacing: 0px;
-                color: #B3B3BA;
+                color: $color6;
                 text-align: right;
                 position: relative;
                 top: -130px;
@@ -378,12 +379,12 @@
                 top: 3px;
             }
             &__foot-company {
-                font-family: 'Montserrat';
+                font-family: $styles;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 20px;
                 letter-spacing: 0px;
-                color: #B3B3BA;
+                color: $color6;
                 text-align: right;
                 position: relative;
                 top: 20px;

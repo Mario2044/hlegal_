@@ -55,7 +55,7 @@ body .wraps__wrap-size {
 }
 body .wraps__title {
   padding: 0 30px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -65,7 +65,7 @@ body .wraps__title {
 }
 body .wraps__data {
   padding: 0 30px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 15px;
@@ -76,7 +76,7 @@ body .wraps__data {
 }
 body .wraps__text {
   padding: 0 30px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -86,7 +86,7 @@ body .wraps__text {
   padding-bottom: 30px;
 }
 body .wraps__line {
-  border-bottom: solid 4px #E6E6F0;
+  border-bottom: solid 4px #FFFFFF;
   margin: 0 30px;
 }
 body .wraps__photo {
@@ -128,7 +128,7 @@ body .head__facebook {
 body .head__geo {
   margin-top: 10px;
   display: inline-block;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -160,7 +160,7 @@ body .head__menu-itemss {
 body .head__menu-item-setting {
   list-style: none;
   padding-right: 14px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -169,7 +169,7 @@ body .head__menu-item-setting {
 }
 body .head__menu-item {
   list-style: none;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -222,7 +222,7 @@ body .buttons__size {
   background-color: #E6E6F0;
 }
 body .buttons__btn-small {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   width: 105px;
   height: 38px;
   font-weight: 700;
@@ -235,7 +235,7 @@ body .buttons__btn-small {
   background-color: #FFFFFF;
 }
 body .buttons__btn-big {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   margin-left: 2px;
   width: 121px;
   height: 38px;
@@ -262,7 +262,7 @@ body .button__form {
   height: 56px;
   color: #FFFFFF;
   background-color: #24A3FF;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -286,7 +286,7 @@ body .contact__info > a, body .contact__info img {
 }
 body .contact__geo {
   margin-top: 30px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -302,7 +302,7 @@ body .contact__bottom {
 }
 body .contact__map {
   margin-top: 10px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 15px;
@@ -315,7 +315,7 @@ body .contact__map {
 }
 body .contact__phone {
   margin-top: 10px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -327,7 +327,7 @@ body .contact__phone {
 }
 body .contact__email {
   margin-top: -12px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -338,7 +338,7 @@ body .contact__email {
   top: -28px;
 }
 body .contact__company {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -364,7 +364,7 @@ body .contact__doc-upper {
   top: 3px;
 }
 body .contact__foot-company {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
