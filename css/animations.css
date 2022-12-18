@@ -1,0 +1,108 @@
+.head__btn-lang {
+  transition: all 0.3s;
+}
+.head__btn-lang:hover {
+  color: #FFFFFF;
+  border: none;
+  background: #F0145A;
+  border-radius: 25%;
+  cursor: pointer;
+  transition: all 0.3s;
+  animation-timing-function: ease-in-out;
+}
+.head__hover-about {
+  transition: all 0.1s;
+}
+.head__hover-about:hover {
+  color: #F0145A;
+  transition: all 0.3s;
+  animation-timing-function: ease-in-out;
+  border-bottom: 2px solid #F0145A;
+}
+.head__hover-services {
+  transition: all 0.1s;
+}
+.head__hover-services:hover {
+  color: #F0145A;
+  transition: all 0.3s;
+  animation-timing-function: ease-in-out;
+  border-bottom: 2px solid #F0145A;
+}
+.head__hover-team {
+  transition: all 0.1s;
+}
+.head__hover-team:hover {
+  color: #F0145A;
+  transition: all 0.3s;
+  animation-timing-function: ease-in-out;
+  border-bottom: 2px solid #F0145A;
+}
+.head__hover-publications {
+  transition: all 0.1s;
+}
+.head__hover-publications:hover {
+  color: #F0145A;
+  transition: all 0.3s;
+  animation-timing-function: ease-in-out;
+  border-bottom: 2px solid #F0145A;
+}
+.head__hover-contact {
+  transition: all 0.1s;
+}
+.head__hover-contact:hover {
+  color: #F0145A;
+  transition: all 0.3s;
+  animation-timing-function: ease-in-out;
+  border-bottom: 2px solid #F0145A;
+}
+
+.buttons__btn-big {
+  transition: all 0.1s;
+}
+.buttons__btn-big:hover {
+  background: #F5F5FA;
+  transition: all 0.3s;
+  animation-timing-function: ease-in-out;
+}
+
+.button__form {
+  transition: all 0.1s;
+}
+.button__form:hover {
+  transition: all 0.3s;
+  animation-timing-function: ease-in-out;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+}
+
+.wraps__title {
+  transition: all 0.1s;
+}
+.wraps__title:hover {
+  color: #F0145A;
+  transition: all 0.3s;
+  animation-timing-function: ease-in-out;
+}
+
+.logo__contacts-btn-lang {
+  transition: all 0.3s;
+}
+.logo__contacts-btn-lang:hover {
+  color: #FFFFFF;
+  border: none;
+  background: #F0145A;
+  border-radius: 25%;
+  cursor: pointer;
+  transition: all 0.3s;
+  animation-timing-function: ease-in-out;
+}
+.logo__contacts-link {
+  transition: all 0.3s;
+}
+.logo__contacts-link:hover {
+  color: #F0145A;
+  cursor: pointer;
+  transition: all 0.3s;
+  animation-timing-function: ease-in-out;
+}
+
+/*# sourceMappingURL=animations.css.map */

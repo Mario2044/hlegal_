@@ -116,7 +116,6 @@
             }
             &__menu-item-setting {
                 list-style: none;
-                padding-right: 14px;
                 font-family: $styles;
                 font-size: 16px;
                 font-weight: 700;
@@ -167,6 +166,26 @@
             &__hum-menu {
                 display: none;
             }
+            &__hover-about {
+                width: 74px;
+            }
+            &__hover-services {
+                margin-left: 14px;
+                margin-right: 14px;
+                width: 69px;
+            }
+            &__hover-team {
+                margin-right: 14px;
+                width: 44px;
+            }
+            &__hover-publications {
+                margin-right: 14px;
+                width: 104px;
+            }
+            &__hover-contact {
+                margin-right: 14px;
+                width: 65px;
+            }
         }
         .logo {
             &__main {
@@ -186,8 +205,8 @@
         }
         .button {
             &__publications {
-                    margin-top: 0;
-                    text-align: center;
+                margin-top: 0;
+                text-align: center;
             }
         }
         .buttons {

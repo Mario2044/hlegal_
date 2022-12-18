@@ -86,7 +86,7 @@ body .wraps__text {
   padding-bottom: 30px;
 }
 body .wraps__line {
-  border-bottom: solid 4px #FFFFFF;
+  border-bottom: solid 4px #E6E6F0;
   margin: 0 30px;
 }
 body .wraps__photo {
@@ -159,13 +159,13 @@ body .head__menu-itemss {
 }
 body .head__menu-item-setting {
   list-style: none;
-  padding-right: 14px;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0em;
   color: #24A3FF;
+  padding: 0;
 }
 body .head__menu-item {
   list-style: none;
@@ -211,6 +211,26 @@ body .head__link {
 body .head__hum-menu {
   display: none;
 }
+body .head__hover-about {
+  width: 74px;
+}
+body .head__hover-services {
+  margin-left: 14px;
+  margin-right: 14px;
+  width: 69px;
+}
+body .head__hover-team {
+  margin-right: 14px;
+  width: 44px;
+}
+body .head__hover-publications {
+  margin-right: 14px;
+  width: 104px;
+}
+body .head__hover-contact {
+  margin-right: 14px;
+  width: 65px;
+}
 body .buttons__size {
   margin: 0 auto;
   display: flex;
@@ -246,7 +266,7 @@ body .buttons__btn-big {
   line-height: 20px;
   color: #323264;
   cursor: pointer;
-  background-color: #FFFFFF;
+  background-color: #E6E6F0;
 }
 body .size {
   padding-top: 38px;

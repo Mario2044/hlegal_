@@ -80,7 +80,6 @@
   }
   body .head__menu-item-setting {
     list-style: none;
-    padding-right: 14px;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -104,7 +103,7 @@
     font-size: 12px;
     line-height: 15px;
     color: #B3B3BA;
-    background-color: #F5F5FA;
+    background-color: #FFFFFF;
     border: none;
     cursor: pointer;
   }
@@ -127,6 +126,26 @@
     text-decoration: none;
     color: #B3B3BA;
     margin-top: 3px;
+  }
+  body .head__hover-about {
+    width: 74px;
+  }
+  body .head__hover-services {
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 69px;
+  }
+  body .head__hover-team {
+    margin-right: 14px;
+    width: 44px;
+  }
+  body .head__hover-publications {
+    margin-right: 14px;
+    width: 104px;
+  }
+  body .head__hover-contact {
+    margin-right: 14px;
+    width: 65px;
   }
   body .size {
     padding-top: 30px;

@@ -1,0 +1,114 @@
+@import 'colors.scss';
+.head {
+    &__btn-lang {
+        transition: all 0.3s;
+    }
+    &__btn-lang:hover {
+        color: $color3;
+        border: none;
+        background: $color9;
+        border-radius: 25%;
+        cursor: pointer;
+        transition: all 0.3s;
+        animation-timing-function: ease-in-out;
+    }
+    &__hover-about {
+        transition: all 0.1s;
+    }
+    &__hover-about:hover {
+        color: $color5;
+        transition: all 0.3s;
+        animation-timing-function: ease-in-out;
+        border-bottom: 2px solid $color9;
+    }
+    &__hover-services {
+        transition: all 0.1s;
+    }
+    &__hover-services:hover {
+        color: $color5;
+        transition: all 0.3s;
+        animation-timing-function: ease-in-out;
+        border-bottom: 2px solid $color9;   
+    }
+    &__hover-team {
+        transition: all 0.1s;
+    }
+    &__hover-team:hover {
+        color: $color5;
+        transition: all 0.3s;
+        animation-timing-function: ease-in-out;
+        border-bottom: 2px solid $color9;
+    }
+    &__hover-publications {
+        transition: all 0.1s;
+    }
+    &__hover-publications:hover {
+        color: $color5;
+        transition: all 0.3s;
+        animation-timing-function: ease-in-out;
+        border-bottom: 2px solid $color9;
+    }
+    &__hover-contact {
+        transition: all 0.1s;
+    }
+    &__hover-contact:hover {
+        color: $color5;
+        transition: all 0.3s;
+        animation-timing-function: ease-in-out;
+        border-bottom: 2px solid $color9;
+    }
+}
+.buttons {
+    &__btn-big {
+        transition: all 0.1s;
+    }
+    &__btn-big:hover {
+        background: $color;
+        transition: all 0.3s;
+        animation-timing-function: ease-in-out;
+    } 
+}
+.button {
+    &__form {
+        transition: all 0.1s;
+    }
+    &__form:hover {
+        transition: all 0.3s;
+        animation-timing-function: ease-in-out;
+        box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    }
+}
+.wraps {
+    &__title {
+        transition: all 0.1s;
+    }
+    &__title:hover {
+        color: $color5;
+        transition: all 0.3s;
+        animation-timing-function: ease-in-out;
+    }
+}
+.logo {
+    &__contacts-btn-lang {
+        transition: all 0.3s;
+    }
+    &__contacts-btn-lang:hover {
+        color: $color3;
+        border: none;
+        background: $color9;
+        border-radius: 25%;
+        cursor: pointer;
+        transition: all 0.3s;
+        animation-timing-function: ease-in-out;
+    }
+    &__contacts-link {
+        transition: all 0.3s;
+    }
+    &__contacts-link:hover {
+        color: $color9;
+        cursor: pointer;
+        transition: all 0.3s;
+        animation-timing-function: ease-in-out;
+    }
+}
+
