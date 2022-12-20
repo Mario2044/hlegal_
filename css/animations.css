@@ -1,11 +1,10 @@
 .head__btn-lang {
-  transition: all 0.3s;
+  transition: all 0.1s;
 }
 .head__btn-lang:hover {
   color: #FFFFFF;
   border: none;
   background: #F0145A;
-  border-radius: 25%;
   cursor: pointer;
   transition: all 0.3s;
   animation-timing-function: ease-in-out;
@@ -66,11 +65,13 @@
 }
 
 .button__form {
-  transition: all 0.1s;
+  transition: all 1s;
 }
 .button__form:hover {
+  transform: scale(1.1);
   transition: all 0.3s;
   animation-timing-function: ease-in-out;
+  background-color: #50a9ff;
   box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
 }
 
@@ -90,7 +91,6 @@
   color: #FFFFFF;
   border: none;
   background: #F0145A;
-  border-radius: 25%;
   cursor: pointer;
   transition: all 0.3s;
   animation-timing-function: ease-in-out;

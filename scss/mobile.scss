@@ -1,7 +1,7 @@
 @import 'colors.scss';
 @import 'styles.scss';
-@media (max-width:700px) {
-    
+@import 'size.scss';
+@media (max-width: 700px) {
     body {
         .content {
             min-width: 320px;
@@ -14,10 +14,10 @@
             }
         }
         .content-fit {
-                display: flex;
-                justify-content: space-between;
-                width: 100%;
-                padding-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding-bottom: 20px;
         }
         .content-setting {
             padding-top: 17px;
@@ -85,20 +85,21 @@
             &__contacts-btn-lang {
                 width: 33px;
                 height: 25px;
-                font-weight: 700;
-                font-size: 12px;
-                line-height: 15px;
+                font-weight: $size5;
+                font-size: $size2;
+                line-height: $size9;
                 color: $color6;
                 background-color: $color;
                 border: none;
                 cursor: pointer;
+                border-radius: 25%;
             }
             &__contacts-btn-lang-background {
                 width: 33px;
                 height: 25px;
-                font-weight: 700;
-                font-size: 12px;
-                line-height: 15px;
+                font-weight: $size5;
+                font-size: $size2;
+                line-height: $size9;
                 color: $color3;
                 border: none;
                 background: $color5;
@@ -107,9 +108,9 @@
             }
             &__contacts-link {
                 margin-left: auto;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 20px;
+                font-weight: $size5;
+                font-size: $size3;
+                line-height: $size7;
                 text-decoration: none;
                 color: $color6;
                 margin-top: 3px;
@@ -147,7 +148,7 @@
             }
             &__wrap {
                 width: 100%;
-                border-radius: 12px 12px 0 0;
+                border-radius: $size6;
                 background-color: $color3;
                 &:nth-child(6) {
                     margin: 0;
@@ -160,19 +161,19 @@
             &__title {
                 padding: 0 30px;
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 700;
-                line-height: 20px;
-                letter-spacing: 0em;
+                font-size: $size3;
+                font-weight: $size5;
+                line-height: $size7;
+                letter-spacing: $size8;
                 text-align: left;
                 color: $color4;
             }
             &__data {
                 padding: 0 30px;
                 font-family: $styles;
-                font-size: 12px;
-                font-weight: 700;
-                line-height: 15px;
+                font-size: $size2;
+                font-weight: $size5;
+                line-height: $size9;
                 letter-spacing: 1px;
                 text-align: left;
                 color: $color6;
@@ -182,9 +183,9 @@
                 padding: 0 30px;
                 font-family: $styles;
                 font-size: 14px;
-                font-weight: 400;
+                font-weight: $size4;
                 line-height: 22px;
-                letter-spacing: 0em;
+                letter-spacing: $size8;
                 text-align: left;
                 margin-bottom: 30px;
                 padding-bottom: 30px;
@@ -194,7 +195,7 @@
                 margin: 0 30px;
             }
             &__photo {
-                border-radius: 12px 12px 0 0;
+                border-radius: $size6;
             }
         }
         .button {
@@ -211,10 +212,10 @@
                 color: $color3;
                 background-color: $color4;
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 700;
-                line-height: 20px;
-                letter-spacing: 0em;
+                font-size: $size3;
+                font-weight: $size5;
+                line-height: $size7;
+                letter-spacing: $size8;
                 text-align: center;
                 border-radius: 12px;
                 margin-top: -30px;

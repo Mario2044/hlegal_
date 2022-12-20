@@ -1,3 +1,6 @@
+/* size wrap */
+/* size text */
+/* border radius */
 body {
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
@@ -186,6 +189,7 @@ body .head__btn-lang {
   background-color: #FFFFFF;
   border: none;
   cursor: pointer;
+  border-radius: 25%;
 }
 body .head__btn-lang-background {
   width: 33px;
@@ -218,18 +222,21 @@ body .head__hover-services {
   margin-left: 14px;
   margin-right: 14px;
   width: 69px;
+  border-bottom: 2px solid #FFFFFF;
 }
 body .head__hover-team {
   margin-right: 14px;
   width: 44px;
+  border-bottom: 2px solid #FFFFFF;
 }
 body .head__hover-publications {
   margin-right: 14px;
   width: 104px;
+  border-bottom: 2px solid #FFFFFF;
 }
 body .head__hover-contact {
-  margin-right: 14px;
   width: 65px;
+  border-bottom: 2px solid #FFFFFF;
 }
 body .buttons__size {
   margin: 0 auto;

@@ -1,3 +1,6 @@
+/* size wrap */
+/* size text */
+/* border radius */
 @media (max-width: 1157px) {
   body .wraps__location {
     display: flex;
@@ -144,7 +147,6 @@
     width: 104px;
   }
   body .head__hover-contact {
-    margin-right: 14px;
     width: 65px;
   }
   body .size {

@@ -1,7 +1,7 @@
 @import 'colors.scss';
 @import 'styles.scss';
+@import 'size.scss';
 @media (max-width:1157px) {
-   
     body{
         .wraps {
             &__location {
@@ -14,11 +14,11 @@
                 justify-content: center;
             }
             &__wrap {
-                width: 33.333%;
-                border-radius: 12px 12px 0 0;
+                width: $size1;
+                border-radius: $size6;
             }
             &__wrap-size {
-                width: 33.333%;
+                width: $size1;
                 margin: 0;
                 padding-top: 9px;
                 background-color: $color3;
@@ -64,10 +64,10 @@
                 margin-top: 10px;
                 display: inline-block;
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 20px;
-                letter-spacing: 0em;
+                font-size: $size3;
+                font-weight: $size4;
+                line-height: $size7;
+                letter-spacing: $size8;
                 color: $color6;
             }
             &__img {
@@ -96,27 +96,27 @@
             &__menu-item-setting {
                 list-style: none;
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 700;
-                line-height: 20px;
-                letter-spacing: 0em;
+                font-size: $size3;
+                font-weight: $size5;
+                line-height: $size7;
+                letter-spacing: $size8;
                 color: $color4;
             }
             &__menu-item {
                 list-style: none;
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 700;
-                line-height: 20px;
-                letter-spacing: 0em;
+                font-size: $size3;
+                font-weight: $size5;
+                line-height: $size7;
+                letter-spacing: $size8;
                 color: $color4;
             }
             &__btn-lang {
                 width: 33px;
                 height: 25px;
-                font-weight: 700;
-                font-size: 12px;
-                line-height: 15px;
+                font-weight: $size5;
+                font-size: $size2;
+                line-height: $size9;
                 color: $color6;
                 background-color: $color3;
                 border: none;
@@ -125,9 +125,9 @@
             &__btn-lang-background {
                 width: 33px;
                 height: 25px;
-                font-weight: 700;
-                font-size: 12px;
-                line-height: 15px;
+                font-weight: $size5;
+                font-size: $size2;
+                line-height: $size9;
                 color: $color;
                 border: none;
                 background: $color5;
@@ -135,9 +135,9 @@
             }
             &__link {
                 margin-left: auto;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 20px;
+                font-weight: $size5;
+                font-size: $size3;
+                line-height: $size7;
                 text-decoration: none;
                 color: $color6;
                 margin-top: 3px;
@@ -159,7 +159,6 @@
                 width: 104px;
             }
             &__hover-contact {
-                margin-right: 14px;
                 width: 65px;
             }
         }

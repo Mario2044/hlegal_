@@ -1,6 +1,7 @@
 @import 'colors.scss';
 @import 'styles.scss';
-    body{
+@import 'size.scss';
+    body {
         margin: 0 auto;
         font-family: $styles;
         a {
@@ -43,36 +44,36 @@
                 justify-content: center;
             }
             &__wrap {
-                width: 33.333%;
+                width: $size1;
                 background-color: $color3;
-                border-radius: 12px 12px 0 0;
+                border-radius: $size6;
                 &:not(:last-child) {
                     margin-right: 30px;
                 }
             }
             &__wrap-size {
-                width: 33.333%;
+                width: $size1;
                 margin: 0;
                 padding-top: 9px;
                 background-color: $color3;
-                border-radius: 12px 12px 0 0;
+                border-radius: $size6;
             }
             &__title {
                 padding: 0 30px;
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 700;
-                line-height: 20px;
-                letter-spacing: 0em;
+                font-size: $size3;
+                font-weight: $size5;
+                line-height: $size7;
+                letter-spacing: $size8;
                 text-align: left;
                 color: $color4;
             }
             &__data {
                 padding: 0 30px;
                 font-family: $styles;
-                font-size: 12px;
-                font-weight: 700;
-                line-height: 15px;
+                font-size: $size2;
+                font-weight: $size5;
+                line-height: $size9;
                 letter-spacing: 1px;
                 text-align: left;
                 color: $color6;
@@ -82,9 +83,9 @@
                 padding: 0 30px;
                 font-family: $styles;
                 font-size: 14px;
-                font-weight: 400;
+                font-weight: $size4;
                 line-height: 22px;
-                letter-spacing: 0em;
+                letter-spacing: $size8;
                 text-align: left;
                 margin-bottom: 30px;
                 padding-bottom: 30px;
@@ -94,7 +95,7 @@
                 margin: 0 30px;
             }
             &__photo {
-                border-radius: 12px 12px 0 0;
+                border-radius: $size6;
                 text-align: center;
             }
         }
@@ -137,10 +138,10 @@
                 margin-top: 10px;
                 display: inline-block;
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 20px;
-                letter-spacing: 0em;
+                font-size: $size3;
+                font-weight: $size4;
+                line-height: $size7;
+                letter-spacing: $size8;
                 color: $color6;
             }
             &__img {
@@ -168,39 +169,40 @@
             &__menu-item-setting {
                 list-style: none;
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 700;
-                line-height: 20px;
-                letter-spacing: 0em;
+                font-size: $size3;
+                font-weight: $size5;
+                line-height: $size7;
+                letter-spacing: $size8;
                 color: $color4;
                 padding: 0;
             }
             &__menu-item {
                 list-style: none;
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 700;
-                line-height: 20px;
-                letter-spacing: 0em;
+                font-size: $size3;
+                font-weight: $size5;
+                line-height: $size7;
+                letter-spacing: $size8;
                 color: $color4;
             }
             &__btn-lang {
                 width: 33px;
                 height: 25px;
-                font-weight: 700;
-                font-size: 12px;
-                line-height: 15px;
+                font-weight: $size5;
+                font-size: $size2;
+                line-height: $size9;
                 color: $color6;
                 background-color: $color3;
                 border: none;
                 cursor: pointer;
+                border-radius: 25%;
             }
             &__btn-lang-background {
                 width: 33px;
                 height: 25px;
-                font-weight: 700;
-                font-size: 12px;
-                line-height: 15px;
+                font-weight: $size5;
+                font-size: $size2;
+                line-height: $size9;
                 color: $color3;
                 border: none;
                 background: $color5;
@@ -209,9 +211,9 @@
             }
             &__link {
                 margin-left: auto;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 20px;
+                font-weight: $size5;
+                font-size: $size3;
+                line-height: $size7;
                 text-decoration: none;
                 color: $color6;
                 margin-top: 3px;
@@ -226,18 +228,21 @@
                 margin-left: 14px;
                 margin-right: 14px;
                 width: 69px;
+                border-bottom: 2px solid $color3;
             }
             &__hover-team {
                 margin-right: 14px;
                 width: 44px;
+                border-bottom: 2px solid $color3;
             }
             &__hover-publications {
                 margin-right: 14px;
                 width: 104px;
+                border-bottom: 2px solid $color3;
             }
             &__hover-contact {
-                margin-right: 14px;
                 width: 65px;
+                border-bottom: 2px solid $color3;
             }
         }
         .buttons {
@@ -256,11 +261,11 @@
                 font-family: $styles;
                 width: 105px;
                 height: 38px;
-                font-weight: 700;
-                font-size: 16px;
+                font-weight: $size5;
+                font-size: $size3;
                 border-radius: 12px;
                 border: none;
-                line-height: 20px;
+                line-height: $size7;
                 color: $color8;
                 cursor: pointer;
                 background-color: $color3;
@@ -270,11 +275,11 @@
                 margin-left: 2px;
                 width: 121px;
                 height: 38px;
-                font-weight: 700;
-                font-size: 16px;
+                font-weight: $size5;
+                font-size: $size3;
                 border-radius: 12px;
                 border: none;
-                line-height: 20px;
+                line-height: $size7;
                 color: $color8;
                 cursor: pointer;
                 background-color: $color2;
@@ -296,10 +301,10 @@
                 color: $color3;
                 background-color: $color4;
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 700;
-                line-height: 20px;
-                letter-spacing: 0em;
+                font-size: $size3;
+                font-weight: $size5;
+                line-height: $size7;
+                letter-spacing: $size8;
                 text-align: center;
                 border-radius: 12px;
                 margin-bottom: 60px;
@@ -322,10 +327,10 @@
             &__geo {
                 margin-top: 30px;
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 20px;
-                letter-spacing: 0em;
+                font-size: $size3;
+                font-weight: $size4;
+                line-height: $size7;
+                letter-spacing: $size8;
                 color: $color8;
                 display: inline-block;
                 position: relative;
@@ -338,9 +343,9 @@
             &__map {
                 margin-top: 10px;
                 font-family: $styles;
-                font-size: 12px;
-                font-weight: 700;
-                line-height: 15px;
+                font-size: $size2;
+                font-weight: $size5;
+                line-height: $size9;
                 letter-spacing: 1px;
                 color: $color4;
                 text-transform: uppercase;
@@ -351,10 +356,10 @@
             &__phone {
                 margin-top: 10px;
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 700;
-                line-height: 20px;
-                letter-spacing: 0em;
+                font-size: $size3;
+                font-weight: $size5;
+                line-height: $size7;
+                letter-spacing: $size8;
                 color: $color7;
                 display: inline-block;
                 position: relative;
@@ -363,10 +368,10 @@
             &__email {
                 margin-top: -12px;
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 700;
-                line-height: 20px;
-                letter-spacing: 0em;
+                font-size: $size3;
+                font-weight: $size5;
+                line-height: $size7;
+                letter-spacing: $size8;
                 color: $color4;
                 display: inline-block;
                 position: relative;
@@ -374,9 +379,9 @@
             }
             &__company {
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 20px;
+                font-size: $size3;
+                font-weight: $size4;
+                line-height: $size7;
                 letter-spacing: 0px;
                 color: $color6;
                 text-align: right;
@@ -400,9 +405,9 @@
             }
             &__foot-company {
                 font-family: $styles;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 20px;
+                font-size: $size3;
+                font-weight: $size4;
+                line-height: $size7;
                 letter-spacing: 0px;
                 color: $color6;
                 text-align: right;
