@@ -1,29 +1,35 @@
 @import 'colors.scss';
-@import 'styles.scss';
+@import 'styles-txt.scss';
 @import 'size.scss';
-@media (max-width: 700px) {
+@import 'breakpoints.scss';
+@media (max-width: $mobile) {
+
     body {
         .content {
             min-width: 320px;
             margin: 0 auto;
             box-sizing: border-box;
             padding: 0 30px;
+
             &:nth-child(1) {
                 position: relative;
                 top: 0;
             }
         }
+
         .content-fit {
             display: flex;
             justify-content: space-between;
             width: 100%;
             padding-bottom: 20px;
         }
+
         .content-setting {
             padding-top: 17px;
             padding-bottom: 7px;
             background-color: $color;
         }
+
         .head {
             &__space {
                 display: flex;
@@ -31,57 +37,70 @@
                 margin-top: -32px;
                 background-color: $color3;
             }
+
             &__contact {
                 display: none;
             }
+
             &__facebook {
                 display: inline-block;
                 position: relative;
                 top: 6px;
             }
+
             &__geo {
                 margin-top: 10px;
                 display: inline-block;
             }
+
             &__img {
                 display: contents;
+
                 img {
                     width: 220px;;
                 }
             }
+
             &__image {
                 position: relative;
                 top: 10px;
             }
+
             &__menu {
                 display: none;
                 position: relative;
                 top: -57px;
             }
+
             &__menu-items {
                 display: none;
             }
+
             &__menu-itemss {
                 display: none;
                 margin-left: auto;
                 position: relative;
                 top: -26px;
             }
+
             &__hum-menu {
                 display: inline-block;
                 position: relative;
                 top: 33px;
             }
+
             &__hum-img {
                 width: 22px;
             }
         }
+
         .logo {
             &__main {
                 display: flex;
                 position: relative;
                 top: -6px;
             }
+
             &__contacts-btn-lang {
                 width: 33px;
                 height: 25px;
@@ -94,6 +113,7 @@
                 cursor: pointer;
                 border-radius: 25%;
             }
+
             &__contacts-btn-lang-background {
                 width: 33px;
                 height: 25px;
@@ -106,6 +126,7 @@
                 border-radius: 25%;
                 cursor: pointer;
             }
+
             &__contacts-link {
                 margin-left: auto;
                 font-weight: $size5;
@@ -116,17 +137,21 @@
                 margin-top: 3px;
             }
         }
+
         .set {
             padding: 0 45px;
         }
+
         .wrapper {
             &:nth-child(3) {
                 padding-top: 21px;
             }
+
             &:nth-child(4) {
                 padding-top: 29px;
             }
         }
+
         .buttons {
             &__size {
                 margin: 0 auto;
@@ -137,30 +162,35 @@
                 top: -1px;
             }
         }
+
         .wraps {
             &__location {
                 display: none;
                 margin: 0 auto;
                 padding-bottom: 30px;
             }
+
             &__location-wrap {
                 display: block;
             }
+
             &__wrap {
                 width: 100%;
                 border-radius: $size6;
                 background-color: $color3;
+
                 &:nth-child(6) {
                     margin: 0;
                     padding-top: 9px;
                 }
             }
+
             &__wrap-size {
                 width: fit-content;
             }
+
             &__title {
                 padding: 0 30px;
-                font-family: $styles;
                 font-size: $size3;
                 font-weight: $size5;
                 line-height: $size7;
@@ -168,9 +198,9 @@
                 text-align: left;
                 color: $color4;
             }
+
             &__data {
                 padding: 0 30px;
-                font-family: $styles;
                 font-size: $size2;
                 font-weight: $size5;
                 line-height: $size9;
@@ -179,9 +209,9 @@
                 color: $color6;
                 text-transform: uppercase;
             }
+
             &__text {
                 padding: 0 30px;
-                font-family: $styles;
                 font-size: 14px;
                 font-weight: $size4;
                 line-height: 22px;
@@ -190,14 +220,17 @@
                 margin-bottom: 30px;
                 padding-bottom: 30px;
             }
+
             &__line {
                 border-bottom: solid 4px #E6E6F0;
                 margin: 0 30px;
             }
+
             &__photo {
                 border-radius: $size6;
             }
         }
+
         .button {
             &__publications {
                 text-align: center;
@@ -206,64 +239,75 @@
                 position: relative;
                 top: -6px;
             }
+
             &__form {
                 width: 211px;
                 height: 56px;
                 color: $color3;
                 background-color: $color4;
-                font-family: $styles;
                 font-size: $size3;
                 font-weight: $size5;
                 line-height: $size7;
                 letter-spacing: $size8;
                 text-align: center;
                 border-radius: 12px;
-                margin-top: -30px;
-                margin-bottom: 60px;
                 border: 0;
+                margin-top: 39px;
             }
         }
+
         .bottom-line {
             padding: 0 45px;
         }
+
         .contact {
             &__info {
                 text-align: center;
                 width: 100%;
             }
+
             &__geo {
                 display: block;
                 margin-top: 1px;
             }
+
             &__img {
                 display: block;
                 margin-top: 22px;
             }
+
             &__email {
                 display: block;
                 margin-top: -16px;
                 margin-bottom: -16px;
             }
+
             &__map {
                 margin-top: 0;
             }
+
             &__phone {
                 margin-top: 29px;
                 display: block;
             }
+
             &__doc-upper {
                 display: none;
             }
+
             &__doc {
                 display: none;
             }
+
             &__last-text {
                 position: relative;
                 top: -23px;
             }
+
             &__bottom {
                 display: block;
             }
+
             &__foot-company {
                 position: relative;
                 top: -19px;

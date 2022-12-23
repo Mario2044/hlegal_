@@ -1,29 +1,10 @@
 @import 'colors.scss';
-@import 'styles.scss';
+@import 'styles-txt.scss';
 @import 'size.scss';
-@media (max-width:1157px) {
-    body{
-        .wraps {
-            &__location {
-                display: flex;
-                margin: 0 auto;
-            }
-            &__location-wrap {
-                display: none;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-            &__wrap {
-                width: $size1;
-                border-radius: $size6;
-            }
-            &__wrap-size {
-                width: $size1;
-                margin: 0;
-                padding-top: 9px;
-                background-color: $color3;
-            }
-        }
+@import 'breakpoints.scss';
+@media (max-width: $tab-hd) {
+
+    body {
         .wrapper {
             &:nth-child(3) {
                 padding: 0;
@@ -32,44 +13,51 @@
                 padding-bottom: 14px;
             }
         }
+
         .content {
             padding: 0 60px;
         }
+
         .container {
             &__location-tab {
                 display: none;
             }
         }
+
         .header {
             &__contacts {
                 display: none;
             }
         }
+
         .logo {
             &__main {
                 display: none;
             }
         }
+
         .head {
             &__contact {
                 position: relative;
                 top: -51px;
             }
+
             &__facebook {
                 display: inline-block;
                 position: relative;
                 top: 6px;
             }
+
             &__geo {
                 margin-top: 10px;
                 display: inline-block;
-                font-family: $styles;
                 font-size: $size3;
                 font-weight: $size4;
                 line-height: $size7;
                 letter-spacing: $size8;
                 color: $color6;
             }
+
             &__img {
                 position: relative;
                 top: 54px;
@@ -77,40 +65,44 @@
                     width: 382px;
                 }
             }
+
             &__menu {
                 position: relative;
                 top: -50px;
             }
+
             &__menu-items {
                 display: flex;
                 margin-left: auto;
                 position: relative;
                 top: -18px;
             }
+
             &__menu-itemss {
                 display: none;
                 margin-left: auto;
                 position: relative;
                 top: -26px;
             }
+
             &__menu-item-setting {
                 list-style: none;
-                font-family: $styles;
                 font-size: $size3;
                 font-weight: $size5;
                 line-height: $size7;
                 letter-spacing: $size8;
                 color: $color4;
             }
+
             &__menu-item {
                 list-style: none;
-                font-family: $styles;
                 font-size: $size3;
                 font-weight: $size5;
                 line-height: $size7;
                 letter-spacing: $size8;
                 color: $color4;
             }
+
             &__btn-lang {
                 width: 33px;
                 height: 25px;
@@ -122,6 +114,7 @@
                 border: none;
                 cursor: pointer;
             }
+
             &__btn-lang-background {
                 width: 33px;
                 height: 25px;
@@ -133,6 +126,7 @@
                 background: $color5;
                 border-radius: 25%;
             }
+
             &__link {
                 margin-left: auto;
                 font-weight: $size5;
@@ -142,30 +136,37 @@
                 color: $color6;
                 margin-top: 3px;
             }
+
             &__hover-about {
                 width: 74px;
             }
+            
             &__hover-services {
                 margin-left: 14px;
                 margin-right: 14px;
                 width: 69px;
             }
+
             &__hover-team {
                 margin-right: 14px;
                 width: 44px;
             }
+
             &__hover-publications {
                 margin-right: 14px;
                 width: 104px;
             }
+            
             &__hover-contact {
                 width: 65px;
             }
         }
+
         .size {
             padding-top: 30px;
             padding-bottom: 30px;
         }
+
         .button {
             &__publications {
                 text-align: center;
@@ -173,12 +174,14 @@
                 margin-top: 8px;
             }
         }
+
         .buttons {
             &__size {
                 position: relative;
                 top: -5px;
             }
         }
+        
         .contact {
             &__info {
                 display: unset;
@@ -186,50 +189,60 @@
                     padding-right: 3px;
                 }
             }
+
             &__geo {
                 display: inline-block;
                 position: relative;
                 top: 4px;
             }
+
             &__bottom {
                 display: flex;
                 justify-content: space-between;
             }
+
             &__map {
                 display: inline-block;
                 position: relative;
                 top: 4px;
             }
+
             &__phone {
                 display: inline-block;
                 position: relative;
                 top: -27px;
             }
+
             &__email {
                 display: inline-block;
                 position: relative;
                 top: -28px;
             }
+
             &__company {
                 text-align: right;
                 position: relative;
                 top: -130px;
                 display: none;
             }
+
             &__img {
                 margin-top: 21px;
                 display: inline-block; 
                 position: relative;
                 top: -14px;
             }
+            
             &__doc { 
                 position: relative;
                 top: -30px;
             }
+
             &__doc-upper {
                 position: relative;
                 top: 3px;
             }
+
             &__foot-company {
                 text-align: right;
                 position: relative;

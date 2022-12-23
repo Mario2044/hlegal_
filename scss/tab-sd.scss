@@ -1,34 +1,29 @@
 @import 'colors.scss';
-@import 'styles.scss';
+@import 'styles-txt.scss';
 @import 'size.scss';
-@media (max-width:1078px) {  
+@import 'breakpoints.scss';
+@media (max-width: $tab-sd) {  
+
     body {
         .wraps {
-            &__location {
-                display: none;
-                margin: 0 auto;
-                padding-bottom: 30px;
-            }
-            &__location-wrap {
-                display: flex;
-                flex-wrap: nowrap;
-            }
+            display: flex;
+            flex-wrap: wrap;
             &__wrap {
-                width: 50%;
+                width: calc((100% - 30px) / 2);
                 background-color: $color3;
                 border-radius: $size6;
                 margin-bottom: 30px;
-                &:not(:last-child) {
-                    margin-right: 30px;
+
+                &:nth-child(2n) {
+                    margin-left: 20px;
+                }
+
+                &:not(:nth-child(3n)) {
+                    margin-right: 0;
                 }
             }
-            &__wrap-size {
-                width: 50%;
-                margin-bottom: 30px;
-                background-color: $color3;
-                border-radius: $size6;
-            }
         }
+
         .content {
             padding: 0 45px;
             max-width: 1920px;
@@ -39,38 +34,46 @@
                 top: 16px;
             }
         }
+
         .content-fit {
             margin-bottom: 14px;
         }
+
         .logo {
             &__head {
                 display: flex;
                 position: relative;
                 top: -9px;
             }
+
             &__hum-menu {
                 display: none;
                 margin-left: auto;
                 align-items: center;
             }
         }
+
         .heads {
             &__contact-tab { 
                 display: flex;
             }
         }
+
         .wrapper {
             &:nth-child(1) {
                 background-color: $color3;
             }
+
             &:nth-child(3) {
                 background-color: $color;
                 padding: 0;
             }
+
             &:nth-child(4) {
                 overflow: hidden;
             }
         }
+
         .head {
             &__contact {
                 position: relative;
@@ -78,21 +81,23 @@
                 display: inline-block;
                 margin-top: 170px;
             }
+
             &__facebook {
                 display: inline-block;
                 position: relative;
                 top: 6px;
             }
+
             &__geo {
                 margin-top: 10px;
                 display: inline-block;
-                font-family: $styles;
                 font-size: $size3;
                 font-weight: $size4;
                 line-height: $size7;
                 letter-spacing: 0em;
                 color: $color6;
             }
+
             &__img {
                 position: absolute;
                 top: 50px;
@@ -100,38 +105,42 @@
                     width: 382px;;
                 }
             }
+
             &__menu {
                 display: flex;
                 position: relative;
                 top: -57px;
             }
+
             &__menu-items {
                 display: contents;
             }
+
             &__menu-itemss {
                 display: none;
                 margin-left: auto;
                 position: relative;
                 top: -26px;
             }
+
             &__menu-item-setting {
                 list-style: none;
-                font-family: $styles;
                 font-size: $size3;
                 font-weight: $size5;
                 line-height: $size7;
                 letter-spacing: 0em;
                 color: #24A3FF;
             }
+
             &__menu-item {
                 list-style: none;
-                font-family: $styles;
                 font-size: $size3;
                 font-weight: $size5;
                 line-height: $size7;
                 letter-spacing: 0em;
                 color: #24A3FF;
             }
+
             &__btn-lang {
                 width: 33px;
                 height: 25px;
@@ -143,6 +152,7 @@
                 border: none;
                 cursor: pointer;
             }
+
             &__btn-lang-background {
                 width: 33px;
                 height: 25px;
@@ -154,6 +164,7 @@
                 background: $color5;
                 border-radius: 25%;
             }
+
             &__link {
                 margin-left: auto;
                 font-weight: $size5;
@@ -163,35 +174,43 @@
                 color: $color6;
                 margin-top: 3px;
             }
+
             &__hum-menu {
                 display: none;
             }
+
             &__hover-about {
                 width: 74px;
             }
+
             &__hover-services {
                 margin-left: 14px;
                 margin-right: 14px;
                 width: 69px;
             }
+
             &__hover-team {
                 margin-right: 14px;
                 width: 44px;
             }
+
             &__hover-publications {
                 margin-right: 14px;
                 width: 104px;
             }
+            
             &__hover-contact {
                 margin-right: 14px;
                 width: 65px;
             }
         }
+
         .logo {
             &__main {
                 display: none;
             }
         }
+
         .buttons {
             &__size {
                 margin: 0 auto;
@@ -200,21 +219,26 @@
                 align-items: center;
             }
         }
+
         .size {
             padding-bottom: 30px;
         }
+
         .button {
             &__publications {
                 margin-top: 0;
                 text-align: center;
+                margin-bottom: -1px;
             }
         }
+
         .buttons {
             &__size {
                 position: relative;
                 top: -8px;
             }
         }
+
         .contact {
             &__info {
                 display: block;
@@ -225,54 +249,63 @@
                     padding-right: 3px;
                 }
             }
+
             &__geo {
                 display: inline-block;
                 position: relative;
                 top: 4px;
             }
+
             &__bottom {   
                 display: block;
                 align-items: center;           
                 min-width: 484px;
                 text-align: left;
             }
+
             &__map {
                 display: inline-block;
                 position: relative;
                 top: 4px;
             }
+
             &__phone {
                 display: inline-block;
                 position: relative;
                 top: -19px;
             }
+
             &__email {
                 display: inline-block;
                 position: relative;
                 top: -20px;
             }
+
             &__company {
                 top: -20px;
                 position: relative;
                 text-align: center;
             }
+
             &__img {
                 margin-top: 21px;
                 display: inline-block; 
                 position: relative;
                 top: -8px;
             }
+
             &__doc { 
                 position: relative;
                 top: -22px;
             }
+
             &__doc-upper {
                 position: relative;
                 top: 2px;
             }
+
             &__foot-company {
                 text-align: center;
-                font-family: $styles;
                 font-size: $size3;
                 font-weight: $size4;
                 line-height: $size7;
